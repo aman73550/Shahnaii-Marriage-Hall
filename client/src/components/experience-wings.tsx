@@ -11,7 +11,7 @@ const wings = [
       "A magnificent air-conditioned banquet hall draped in luxury — from crystal chandeliers to silk-lined walls. Seats up to 700 guests for grand dinners, Nikaah ceremonies, and receptions.",
     features: ["700+ Guest Capacity", "Crystal Chandelier Lighting", "Full A/C Setup", "Premium Sound System"],
     accent: "from-amber-900/20 to-transparent",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/949/new_large/ss20230618-6907-k5nf0i.jpg",
+    imgSrc: "/images/wing-banquet.png",
   },
   {
     id: "lawn",
@@ -22,7 +22,7 @@ const wings = [
       "An expansive manicured lawn under open skies — perfect for evening receptions, Mehndi ceremonies, and outdoor gatherings. Accommodates up to 1,000 guests in natural splendour.",
     features: ["1,000 Guest Capacity", "Manicured Landscape", "Evening Lighting", "Outdoor Stage Setup"],
     accent: "from-emerald-900/20 to-transparent",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/952/new_large/ss20230618-6907-vreczg.jpg",
+    imgSrc: "/images/wing-lawn-night.png",
   },
   {
     id: "party",
@@ -33,7 +33,7 @@ const wings = [
       "A sophisticated boutique space for birthdays, anniversaries, and social gatherings. Designed to deliver a premium experience without compromise — budget-friendly luxury at its finest.",
     features: ["Flexible Configuration", "Décor Packages", "Catering Available", "AV & Lighting"],
     accent: "from-purple-900/20 to-transparent",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/948/new_large/ss20230618-6907-18uy71i.jpg",
+    imgSrc: "/images/wing-party.png",
   },
 ];
 

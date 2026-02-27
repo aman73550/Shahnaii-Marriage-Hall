@@ -2,9 +2,9 @@ import { useEffect, useRef, useState } from "react";
 import { MapPin, Phone } from "lucide-react";
 
 const heroImages = [
-  "https://img.weddingbazaar.com/photos/pictures/007/126/951/new_large/ss20230618-6907-11ivpvt.jpg",
-  "https://img.weddingbazaar.com/photos/pictures/007/126/955/new_large/ss20230618-6907-1nqzh4p.jpg",
-  "https://img.weddingbazaar.com/photos/pictures/007/126/948/new_large/ss20230618-6907-18uy71i.jpg",
+  "/images/hero-exterior-night.png",
+  "/images/hero-banquet-interior.png",
+  "/images/hero-entrance-dusk.png",
 ];
 
 export function ImperialHero() {

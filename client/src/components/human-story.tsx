@@ -8,7 +8,7 @@ const stories = [
     subtitle: "The Foundation",
     text: "For years, Shahnaii has been more than a hall — it's a dependable place where comfort and quality meet affordability. In the heart of Motiganj Chauraha, families from across the region have placed their most precious moments in our care.",
     cite: "Justdial Verified Review",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/951/new_large/ss20230618-6907-11ivpvt.jpg",
+    imgSrc: "/images/story-panoramic.png",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const stories = [
     subtitle: "For Every Family",
     text: "Designed so every guest arrives, celebrates, and departs without hassle — regardless of their accessibility needs. Our fully wheelchair-accessible venue is a testament to our belief that no family member should ever be left behind.",
     cite: "Mandap.com Feature",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/953/new_large/ss20230618-6907-1ovjf3u.jpg",
+    imgSrc: "/images/story-guest-room.png",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const stories = [
     subtitle: "The Shahnaii Journey",
     text: "Having hosted over 25 major events in 6 years, the hall has become a staple of the Domariyaganj community. Families return not just for the grandeur, but for the trust — knowing that their celebration will be handled with care, attention, and pride.",
     cite: "Community Legacy",
-    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/955/new_large/ss20230618-6907-1nqzh4p.jpg",
+    imgSrc: "/images/story-catering.png",
   },
 ];
 
