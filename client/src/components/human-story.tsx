@@ -8,7 +8,7 @@ const stories = [
     subtitle: "The Foundation",
     text: "For years, Shahnaii has been more than a hall — it's a dependable place where comfort and quality meet affordability. In the heart of Motiganj Chauraha, families from across the region have placed their most precious moments in our care.",
     cite: "Justdial Verified Review",
-    imgSrc: "https://images.unsplash.com/photo-1591604466107-ec97de577aff?w=800&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/951/new_large/ss20230618-6907-11ivpvt.jpg",
   },
   {
     id: 2,
@@ -17,7 +17,7 @@ const stories = [
     subtitle: "For Every Family",
     text: "Designed so every guest arrives, celebrates, and departs without hassle — regardless of their accessibility needs. Our fully wheelchair-accessible venue is a testament to our belief that no family member should ever be left behind.",
     cite: "Mandap.com Feature",
-    imgSrc: "https://images.unsplash.com/photo-1519167758481-83f29c8a4f7c?w=800&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/953/new_large/ss20230618-6907-1ovjf3u.jpg",
   },
   {
     id: 3,
@@ -26,7 +26,7 @@ const stories = [
     subtitle: "The Shahnaii Journey",
     text: "Having hosted over 25 major events in 6 years, the hall has become a staple of the Domariyaganj community. Families return not just for the grandeur, but for the trust — knowing that their celebration will be handled with care, attention, and pride.",
     cite: "Community Legacy",
-    imgSrc: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/955/new_large/ss20230618-6907-1nqzh4p.jpg",
   },
 ];
 
@@ -59,6 +59,7 @@ function StoryCard({ story, index }: { story: typeof stories[0]; index: number }
           src={story.imgSrc}
           alt={story.title}
           className="w-full h-full object-cover"
+          loading="lazy"
           style={{ filter: "grayscale(30%) brightness(0.5)" }}
         />
         <div

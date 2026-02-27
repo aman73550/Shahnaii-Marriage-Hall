@@ -4,51 +4,51 @@ import { ZoomIn } from "lucide-react";
 const galleryImages = [
   {
     id: 1,
-    src: "https://images.unsplash.com/photo-1519167758481-83f29c8a4f7c?w=800&q=80",
-    alt: "Grand Banquet Hall",
-    label: "Banquet Hall",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/951/new_large/ss20230618-6907-11ivpvt.jpg",
+    alt: "Shahnaii Marriage Hall - Wide View",
+    label: "Venue Overview",
   },
   {
     id: 2,
-    src: "https://images.unsplash.com/photo-1478146059778-26028b07395a?w=800&q=80",
-    alt: "Wedding Flowers",
-    label: "Floral Décor",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/955/new_large/ss20230618-6907-1nqzh4p.jpg",
+    alt: "Shahnaii Marriage Hall - Facade & Entrance",
+    label: "Grand Entrance",
   },
   {
     id: 3,
-    src: "https://images.unsplash.com/photo-1510076857177-7470076d4098?w=800&q=80",
-    alt: "Dining Setup",
-    label: "Royal Dining",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/949/new_large/ss20230618-6907-k5nf0i.jpg",
+    alt: "Shahnaii Marriage Hall - Main Hall Setup",
+    label: "Main Hall",
   },
   {
     id: 4,
-    src: "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?w=800&q=80",
-    alt: "Evening Lawn",
-    label: "Green Lawn",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/948/new_large/ss20230618-6907-18uy71i.jpg",
+    alt: "Shahnaii Marriage Hall - Night Lighting",
+    label: "Night Ambience",
   },
   {
     id: 5,
-    src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80",
-    alt: "Wedding Stage",
-    label: "Stage Setup",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/953/new_large/ss20230618-6907-1ovjf3u.jpg",
+    alt: "Shahnaii Marriage Hall - Interior View",
+    label: "Interior",
   },
   {
     id: 6,
-    src: "https://images.unsplash.com/photo-1531058020387-3be344556be6?w=800&q=80",
-    alt: "Lighting Design",
-    label: "Event Lighting",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/952/new_large/ss20230618-6907-vreczg.jpg",
+    alt: "Shahnaii Marriage Hall - Exterior View",
+    label: "Exterior",
   },
   {
     id: 7,
-    src: "https://images.unsplash.com/photo-1502635385003-ee1e6a1a742d?w=800&q=80",
-    alt: "Bridal Decor",
-    label: "Bridal Suite",
+    src: "https://img.weddingbazaar.com/photos/pictures/007/126/950/new_large/ss20230618-6907-ilyv93.jpg",
+    alt: "Shahnaii Marriage Hall - Venue Grounds",
+    label: "Venue Grounds",
   },
   {
     id: 8,
-    src: "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?w=800&q=80",
-    alt: "Celebration",
-    label: "Party Venue",
+    src: "https://img.mandap.com/photos/pictures/34938/orginal/profile_pic_ss20230618-6907-11ivpvt.jpg",
+    alt: "Shahnaii Marriage Hall - Profile View",
+    label: "Shahnaii Hall",
   },
 ];
 
@@ -84,8 +84,8 @@ function GalleryItem({ img, index }: { img: typeof galleryImages[0]; index: numb
         src={img.src}
         alt={img.alt}
         className="w-full h-full object-cover transition-all duration-700"
+        loading="lazy"
         style={{
-          transform: hovered ? "scale(1.08)" : "scale(1)",
           filter: hovered ? "grayscale(0%) brightness(0.7)" : "grayscale(20%) brightness(0.85)",
         }}
       />

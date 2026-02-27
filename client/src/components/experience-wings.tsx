@@ -11,7 +11,7 @@ const wings = [
       "A magnificent air-conditioned banquet hall draped in luxury — from crystal chandeliers to silk-lined walls. Seats up to 700 guests for grand dinners, Nikaah ceremonies, and receptions.",
     features: ["700+ Guest Capacity", "Crystal Chandelier Lighting", "Full A/C Setup", "Premium Sound System"],
     accent: "from-amber-900/20 to-transparent",
-    imgSrc: "https://images.unsplash.com/photo-1597075095900-d4b9a2a538f3?w=900&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/949/new_large/ss20230618-6907-k5nf0i.jpg",
   },
   {
     id: "lawn",
@@ -22,7 +22,7 @@ const wings = [
       "An expansive manicured lawn under open skies — perfect for evening receptions, Mehndi ceremonies, and outdoor gatherings. Accommodates up to 1,000 guests in natural splendour.",
     features: ["1,000 Guest Capacity", "Manicured Landscape", "Evening Lighting", "Outdoor Stage Setup"],
     accent: "from-emerald-900/20 to-transparent",
-    imgSrc: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=900&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/952/new_large/ss20230618-6907-vreczg.jpg",
   },
   {
     id: "party",
@@ -33,7 +33,7 @@ const wings = [
       "A sophisticated boutique space for birthdays, anniversaries, and social gatherings. Designed to deliver a premium experience without compromise — budget-friendly luxury at its finest.",
     features: ["Flexible Configuration", "Décor Packages", "Catering Available", "AV & Lighting"],
     accent: "from-purple-900/20 to-transparent",
-    imgSrc: "https://images.unsplash.com/photo-1530103862676-de8c9debad1d?w=900&q=80",
+    imgSrc: "https://img.weddingbazaar.com/photos/pictures/007/126/948/new_large/ss20230618-6907-18uy71i.jpg",
   },
 ];
 
@@ -69,7 +69,8 @@ function WingCard({ wing, index }: { wing: typeof wings[0]; index: number }) {
         <img
           src={wing.imgSrc}
           alt={wing.title}
-          className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+          className="w-full h-full object-cover transition-opacity duration-700"
+          loading="lazy"
         />
         <div className="absolute inset-0" style={{ background: "linear-gradient(180deg, transparent 30%, #0D0D0D 100%)" }} />
         <div
