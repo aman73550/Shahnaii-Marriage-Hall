@@ -1,0 +1,43 @@
+Got it. My apologies for the previous mix-ups. Based on the image you provided for Shahnaii Marriage Hall and your established "Modern Opulence" design language, here is the complete new instruction and README for this project.
+Shahnaii Marriage Hall - The Digital Grandeur
+Overview
+Ultra-luxury single-page landing website for Shahnaii Marriage Hall located at Motiganj Chauraha, Domariyaganj. This digital flagship uses the "Modern Opulence" aesthetic—obsidian black with champagne gold accents—to elevate the venue's "budget-friendly" profile into a premium, 7-star boutique experience.
+Architecture
+ * Frontend: React + TypeScript with Vite for a modern, type-safe development environment.
+ * Styling: Tailwind CSS with a custom "Obsidian & Gold" theme configuration.
+ * Animations: Framer Motion for high-end scroll reveals, parallax backgrounds, and smooth transitions.
+ * Backend: Minimal Express.js to serve the static frontend.
+ * Theme: Strict Dark-mode only (Obsidian #050505).
+Design System
+ * Color Palette:
+   * Primary: Obsidian Black (#050505) for deep luxury.
+   * Accent: Champagne Gold (#D4AF37) for borders, icons, and CTA buttons.
+   * Base: Ivory (#FCFBF7) for elegant, readable text.
+ * Typography:
+   * Headers: Cinzel Decorative (serif) for a regal, grand feel.
+   * Accents: Playfair Display (italic) for a touch of class.
+   * Body: Montserrat (sans-serif) with high letter-spacing for modern readability.
+ * Spacing: Mandatory 150px+ vertical padding between sections to maintain an "elite" breathing space.
+Key Sections
+ * GoldTicker: Fixed topmost scrolling bar (Z-index 100) highlighting "Wedding Season Bookings Open" and "Banquet + Lawn Facilities".
+ * ImperialHero: Full-height section featuring a Ken Burns-style parallax background of the venue.
+   * Headline: "Shahnaii Marriage Hall" in gold-to-silver gradient.
+   * Sub-headline: "Where Grandeur Meets Celebration."
+ * TheExperienceWings: A bento-style grid highlighting the three core offerings:
+   * Grand Banquet Hall: Interior elegance for large gatherings.
+   * Lush Green Lawn: For open-air events and evening receptions.
+   * Elite Party Venue: Focused on budget-friendly yet premium birthday/social celebrations.
+ * SocialProof: A rotating testimonial carousel or bento grid featuring 4+ star verified reviews, focusing on the quality of service and cleanliness.
+ * GallerySection: A masonry grid of jewelry-style high-contrast photography showing the venue’s decor and lighting.
+ * RoyalTrioNav: Sticky bottom mobile navigation bar:
+   * Location: Deep-link to Motiganj Chauraha on Google Maps.
+   * Call: Direct line to 098111 13182.
+   * WhatsApp: Instant concierge for booking inquiries.
+Technical Components
+ * LuxuryCursor: Custom gold dot desktop cursor that reacts to hover states.
+ * GlassmorphismHeader: Transparent fixed header that blurs and darkens into the obsidian theme upon scroll.
+ * ConciergeMap: Grayscale Google Maps embed with a custom gold marker for the Motiganj Chauraha location.
+Contact & Location
+ * Address: Motiganj Chauraha, Domariyaganj, Bhari, Uttar Pradesh 272194.
+ * Phone: 098111 13182.
+Would you like me to generate the React component code for the ImperialHero section with the specific gold gradient and Cinzel typography?
