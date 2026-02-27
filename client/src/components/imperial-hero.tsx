@@ -40,16 +40,50 @@ export function ImperialHero() {
             src={src}
             alt=""
             className="w-full h-full object-cover animate-ken-burns"
-            style={{ transformOrigin: "center center" }}
+            style={{
+              transformOrigin: "center center",
+              filter: "saturate(1.6) contrast(1.25) brightness(0.85)",
+            }}
+          />
+
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(135deg, rgba(212,175,55,0.18) 0%, rgba(180,130,20,0.12) 30%, rgba(100,60,10,0.15) 60%, rgba(212,175,55,0.1) 100%)",
+              mixBlendMode: "overlay",
+            }}
+          />
+
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "radial-gradient(ellipse at 50% 40%, rgba(212,175,55,0.08) 0%, transparent 55%), radial-gradient(ellipse at center, transparent 40%, rgba(5,5,5,0.5) 100%)",
+            }}
+          />
+
+          <div
+            className="absolute inset-0"
+            style={{
+              background: "linear-gradient(180deg, rgba(180,140,30,0.06) 0%, rgba(212,175,55,0.04) 50%, transparent 100%)",
+              mixBlendMode: "color",
+            }}
           />
         </div>
       ))}
 
       <div
-        className="absolute inset-0"
+        className="absolute inset-0 z-[1]"
         style={{
           background:
-            "linear-gradient(180deg, rgba(5,5,5,0.25) 0%, rgba(5,5,5,0.45) 35%, rgba(5,5,5,0.88) 100%)",
+            "linear-gradient(180deg, rgba(5,5,5,0.15) 0%, rgba(5,5,5,0.35) 30%, rgba(5,5,5,0.85) 100%)",
+        }}
+      />
+
+      <div
+        className="absolute inset-0 z-[1]"
+        style={{
+          background: "radial-gradient(ellipse at 50% 35%, rgba(212,175,55,0.06) 0%, transparent 60%)",
+          mixBlendMode: "screen",
         }}
       />
 
