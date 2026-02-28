@@ -134,18 +134,15 @@ export function SiteFooter() {
             Designed & Developed by{" "}
             <span style={{ color: "rgba(212, 175, 55, 0.55)" }}>Team Insights Pvt Ltd</span>
             {" | "}
-            <span style={{ color: "rgba(212, 175, 55, 0.55)" }}>Aman Gupta</span>
-            {" ("}
             <a
-              href="https://youtube.com/@amangupta.yt"
+              href="https://instagram.com/amangupta.yt"
               target="_blank"
               rel="noopener noreferrer"
               style={{ color: "rgba(212, 175, 55, 0.55)" }}
               data-testid="link-developer-social"
             >
-              @amangupta.yt
+              Aman Gupta (@amangupta.yt)
             </a>
-            {")"}
           </p>
         </div>
       </div>
