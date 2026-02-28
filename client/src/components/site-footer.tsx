@@ -127,10 +127,25 @@ export function SiteFooter() {
             © {new Date().getFullYear()} Shahnaii Marriage Hall. All rights reserved.
           </p>
           <p
-            className="text-[11px] italic"
-            style={{ color: "rgba(212, 175, 55, 0.25)", fontFamily: "Playfair Display, serif" }}
+            className="text-[11px]"
+            style={{ color: "rgba(212, 175, 55, 0.35)", fontFamily: "Montserrat, sans-serif", letterSpacing: "0.05em" }}
+            data-testid="text-developer-credit"
           >
-            Where Grandeur Meets Celebration.
+            Designed & Developed by{" "}
+            <span style={{ color: "rgba(212, 175, 55, 0.55)" }}>Team Insights Pvt Ltd</span>
+            {" | "}
+            <span style={{ color: "rgba(212, 175, 55, 0.55)" }}>Aman Gupta</span>
+            {" ("}
+            <a
+              href="https://youtube.com/@amangupta.yt"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: "rgba(212, 175, 55, 0.55)" }}
+              data-testid="link-developer-social"
+            >
+              @amangupta.yt
+            </a>
+            {")"}
           </p>
         </div>
       </div>
